@@ -1,0 +1,190 @@
+<html>
+<link href="https://fonts.googleapis.com/css?family=Ranga|Sedgwick+Ave+Display" rel="stylesheet">
+<script>function changeNavigation(id) {document.getElementById('texttext').innerHTML=document.getElementById(id).innerHTML}</script>
+<style type = "text/css">
+
+::-webkit-scrollbar {background-color: none; height:5px; width:5px; border:none}
+::-webkit-scrollbar-thumb:vertical {background-color:#ffffff); border: 2px solid #ffffff; height:50px}
+
+
+#container {
+position: absolute;
+top: 0%; 
+left: 0%; 
+height: 100%; 
+width: 100%; 
+background-image: url('https://78.media.tumblr.com/9cff938216133142406c9f61970acd2f/tumblr_njjcz1NLp51rnbw6mo1_540.gif');
+background-size: 100% 100%; 
+}
+
+h1 {
+font-family: 'Sedgwick Ave Display', cursive;
+font-size: 220%;
+text-align: center; 
+color: #ffffff;
+}
+
+.tabs{
+position: relative; 
+height: 100%; 
+display:block;
+}
+
+#box1 {
+position: fixed;
+top: 15%;
+left: 20%; 
+height: 30%;
+width: 10%; 
+border: 2px solid #0066CC;
+background-image: url('https://i.imgur.com/uqbC92O.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size: cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+text-align: center; 
+font-family: 'Sedgwick Ave Display', cursive;
+color: #007FFF;
+font-size: 120%;
+} 	
+
+#box1:hover {
+width: 20%; 
+background-image: url('https://i.imgur.com/6SJhwr6.gif')!important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size: cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box2 {
+position: fixed;
+top: 15%;
+left: 45%; 
+height: 30%;
+width: 10%; 
+border: 2px solid #0066CC;
+background-image: url('https://i.imgur.com/DmgSZ0V.png')!important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size: cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+text-align: center; 
+font-family: 'Sedgwick Ave Display', cursive;
+color: #000000;
+font-size: 120%;
+}
+
+#box2:hover {
+left: 40%; 
+width: 20%; 
+background-image: url('https://i.imgur.com/B6xfSQA.gif')!important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size: cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box3 {
+position: fixed;
+top: 15%;
+left: 70%; 
+height: 30%;
+width: 10%; 
+border: 2px solid #0066CC;
+background-image: url('https://i.imgur.com/4VEJP0V.png')!important; 
+background-repeat:no-repeat !important; 
+background-position:left !important; 
+background-size: cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+text-align: center; 
+font-family: 'Sedgwick Ave Display', cursive;
+color: #0066CC;
+font-size: 120%;
+}
+
+#box3:hover {
+left: 60%;
+width: 20%; 
+background-image: url('https://i.imgur.com/uHvq9Dv.gif')!important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size: cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#meanwhile {
+position: fixed; 
+top: 0%;
+left: 0%;
+height: 10%;
+width: 20%;
+background-image: url('https://i.imgur.com/tpXDbPr.png'); 
+background-size: 100% 100%; 
+}
+
+#textbox {
+position: fixed; 
+top: 50%;
+left: 20%;
+width: 60%; 
+height: 45%; 
+background-image: url('https://i.imgur.com/iWDYIZA.png');
+background-size: 100% 100%;
+}
+
+#texttext {
+position: fixed;
+top: 51%;
+left: 20.5%;
+width: 58%;
+height: 40.8%;
+font-family: 'Ranga', cursive;
+font-size: 80%;
+overflow: auto; 
+color: #000000; 
+padding: .5%;
+}
+
+#name {
+position: fixed;
+top: 5%;
+height: 10%;
+left: 40%; 
+width: 20%; 
+background-image: url('https://i.imgur.com/wS5i9uy.png'); 
+background-size: 100% 100%;  
+}
+
+#overview,#history,#abilities {
+display: none; 
+}
+
+</style>
+
+<div id="container">
+<div id="box1"><span class="tabs" onClick="changeNavigation ('overview')">Overview</span></div>
+<div id="box2"><span class="tabs" onClick="changeNavigation ('history')">History</span></div>
+<div id="box3"><span class="tabs" onClick="changeNavigation ('abilities')">Abilities</span></div><div id="meanwhile"></div>
+<div id="textbox"></div>
+<div id="texttext"><h1>This is a Title</h1>This is a paragraph that will go along with the title. This only exists as a placeholder in order for the coder of this profile to check out what a bunch of text looks like put together. I really hope you still aren't reading this, because if you are, you're a real fucking idiot. Hello, idiot, continue to read me and waste your time, I don't care. This is a paragraph that will go along with the title. This only exists as a placeholder in order for the coder of this profile to check out what a bunch of text looks like put together. I really hope you still aren't reading this, because if you are, you're a real fucking idiot. Hello, idiot, continue to read me and waste your time, I don't care.<br><br>This is a paragraph that will go along with the title. This only exists as a placeholder in order for the coder of this profile to check out what a bunch of text looks like put together. I really hope you still aren't reading this, because if you are, you're a real fucking idiot. Hello, idiot, continue to read me and waste your time, I don't care. This is a paragraph that will go along with the title. This only exists as a placeholder in order for the coder of this profile to check out what a bunch of text looks like put together. I really hope you still aren't reading this, because if you are, you're a real fucking idiot. Hello, idiot, continue to read me and waste your time, I don't care.<br><br>This is a paragraph that will go along with the title. This only exists as a placeholder in order for the coder of this profile to check out what a bunch of text looks like put together. I really hope you still aren't reading this, because if you are, you're a real fucking idiot. Hello, idiot, continue to read me and waste your time, I don't care. This is a paragraph that will go along with the title. This only exists as a placeholder in order for the coder of this profile to check out what a bunch of text looks like put together. I really hope you still aren't reading this, because if you are, you're a real fucking idiot. Hello, idiot, continue to read me and waste your time, I don't care.<br><br></div>
+<div id="overview"><h1>This Is An Overview</h1></div>
+<div id="history"><h1> The Story Of Whiplash</h1></div>
+<div id="abilities"><h1>Super Powered Abilities</h1></div>
+<a href="http://www.whiplash.chatango.com"><div id="L"></div></a>
+<a href="http://www.counterpart.chatango.com"><div id="R"></div> </a>
+<div id="name"></div> 
+<embed style="height: 0%; width: 0%;"src="Whiplash.mp3" autostart="true" loop="true">
+</div> 
